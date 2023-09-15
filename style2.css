@@ -1,0 +1,398 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(1.jpg);
+    /* background-image: url(1.jpg); */
+    background-size: 100% 130%;
+    background-position:50% 70%;
+}
+#people{
+    position: absolute;
+  top: 57.5vh;
+  left: 45vh;
+  width: 50%;
+  height: 45%;
+  z-index: 2;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{ 
+    padding-top: 0px;
+}
+.language select {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: none;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    top: 1px;
+    color: #004935;
+}
+
+.language select:hover {
+    color: #004935;
+    font-weight: bold;
+    border: 2px;
+    outline: 4px;
+    background: color(#004935);
+}
+.language img{
+    color: #004935;
+}
+.h-text{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(0, 19, 6);
+    font-weight: bold;
+}
+.h-text h1{
+    font-size: 70px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h-text span{
+    position: absolute;
+    top: 54%;
+    left: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.h-text a{
+    position: absolute;
+    top: 72%;
+    left: 38%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 87, 29);
+    padding: 15px 25px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h-text p1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 100%;
+    left: 36%;
+    font-size: small;
+}
+.main #photo1 img{
+     position: absolute;
+     width: 30%;
+     height: 65%;
+     top: 120%;
+     left: 10%;
+}
+
+.main #heading1{
+    width: 400px;
+    height: 100vh;
+    text-decoration: none;
+    color: #004935;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    position: absolute;
+    top: 140%;
+    left: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main #paragraph1{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 160%;
+    left: 60%;
+    color: #004935;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.main #getbt1{
+    position: absolute;
+    top: 172%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 87, 29);
+    padding: 15px 25px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main #photo2{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    top: 210%;
+    left: 60%;
+}
+.main #heading2{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 205%;
+    left: 20%;
+    color: #004935;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.main #paragraph2{
+    position: absolute;
+    width: 400px;
+    top: 225%;
+    left: 20%;
+    color: #004935;
+}
+.main #photo3{
+    position: absolute;
+    width: 35%;
+    height: 65%;
+    top: 270%;
+    left: 10%;
+}
+.main #heading3{
+    width: 400px;
+    height: 100%;
+    color: #004935;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: absolute;
+    top: 280%;
+    left: 60%;
+}
+.main #paragraph3{
+    position: absolute;
+    width: 400px;
+    top: 300%;
+    left: 60%;
+    color: #004935;
+}
+.main #win{
+    height: 9%;
+    width: 4%;
+    position: absolute;
+    top: 313%;
+    left: 60%;
+}
+.main #mac{
+    height: 9%;
+    width: 4%;
+    position: absolute;
+    top: 313%;
+    left: 64%;
+}
+.main #android{
+    height: 8.5%;
+    width: 3.5%;
+    position: absolute;
+    top: 313%;
+    left: 68.5%;
+}
+.main #ios{
+    height: 8%;
+    width: 4%;
+    position: absolute;
+    top: 313%;
+    left: 72.5%;
+}
+.main #linux{
+    height: 8.5%;
+    width: 3.5%;
+    position: absolute;
+    top: 313%;
+    left: 76.5%;
+}
+.main #appslink{
+    position: absolute;
+    top: 322%;
+    left: 60.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004935;
+}
+.main #nxtgetbt{
+    position: absolute;
+    top: 327%;
+    left: 60%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 87, 29);
+    padding: 15px 25px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main #datapro{
+    height: 3.5%;
+    width: 0.1%;
+    position: absolute;
+    top: 360%;
+    left: 5.5%;
+}
+.main #stdatapro{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 380%;
+    left: 13%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #004935;
+}
+.main p{
+    color: #004935;
+    font-family: arial;
+    width: 300px;
+    text-align: center;
+}
+.main #paragraph4{
+    position: absolute;
+    top: 398%;
+    left: 8%;
+}
+.main #workanywhere{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 380%;
+    left: 42%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #004935;
+    text-align: center;
+}
+.main #workanywh{
+    height: 3.5%;
+    width: 0.1%;
+    position: absolute;
+    top: 352%;
+    left: 45.5%;
+}
+.main #paragraph5{
+    position: absolute;
+    top: 398%;
+    left: 43%;
+}
+.main #quickconn{
+    height: 3.5%;
+    width: 0.1%;
+    position: absolute;
+    top: 352%;
+    left: 75%;
+}
+.main #quickconnect{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 380%;
+    left: 73%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #004935;
+    text-align: center;
+}
+.main #paragraph6{
+    position: absolute;
+    top: 398%;
+    left: 73%;
+}
+.main #seemoreadv{
+    color: #004935;
+    position: absolute;
+    top: 420%;
+    left: 47%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    color: #01241b;
+}
+.footer img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 440%;
+} 
+.footer #ultra-fast{
+    height: 150px;
+    width: 600px;
+    position: absolute;
+    top: 430%;
+    left: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #004935;
+    text-align: center;
+}
+.footer #footno{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    position: absolute;
+    top: 475%;
+    left: 63.5%;
+}
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.footer #p1{
+    position: absolute;
+    top: 495%;
+    left: 65%;
+}
+.footer #footno2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    position: absolute;
+    top: 490%;
+    left: 63.5%;
+}
+.footer #p2{
+    position: absolute;
+    top: 511%;
+    left: 64%;
+}
+.footer #footno3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    position: absolute;
+    top: 505%;
+    left: 64.5%;
+}
+.footer #p3{
+    width: 100px;
+    position: absolute;
+    top: 523%;
+    left: 64%;
+}
+.footer #lastlink{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004935;
+    position: absolute;
+    top: 540%;
+    left: 39%;
+    font-weight: bold;
+}
+.footer #cloner{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    position: absolute;
+    top: 560%;
+    left: 39%;
+    font-weight: bold;
+}
